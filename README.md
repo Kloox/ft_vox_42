@@ -3,7 +3,7 @@
 
 <h2>Description</h2>
 Welcome to the beautiful world of voxels, where you will use all the benefits of the<br/>
-abstraction "the whole world is a 3 dimensions grid" in order to display a daunting number<br/>
+abstraction "the whole world is a 3-dimension grid" in order to display a daunting number<br/>
 of things on a screen, travel in a gigantic procedural universe and a completely malleable<br/>
 playground. What are voxels?<br/>
 <br/>
@@ -30,7 +30,7 @@ On Linux you can use:<br/>
 `make` or `make fast` to compile with multiple threads.<br />
 <br />
 
-If you have the error "fatal error: GL/glu.h: No such file or directory" while installing the libs, you must install the package `libglu1-mesa-dev`.<br/>
+If you encounter the error "fatal error: GL/glu.h: No such file or directory" while installing the libs, you must install the package `libglu1-mesa-dev`.<br/>
 
 You can now run ft_vox. :)
 </br>
@@ -40,11 +40,11 @@ You can now run ft_vox. :)
 `-f or --fullscreen :` Fullscreen mode.<br/>
 `-w or --width <int> :` Specify the window width. (min: 320, max: 15360) <br/>
 `-h or --height <int> :` Specify the window height. (min: 240, max: 8460)<br/>
-`-ws or --world-size <int> :` Set the data structure world size, must be a multiple of 8. (min: 8, max: 128, default 64)<br/>
+`-ws or --world-size <int> :` Set the size of the data structure world. It must be a multiple of 8. (min: 8, max: 128, default 64)<br/>
 `-s or --seed <int> :` Set the seed world. (default 42)<br/>
 `-d :` Debug mode<br/>
 `--sync :` Disable vsync<br/>
-`-v or --version <int> :` Specify shaders version. The right version to give is at your discretion. (min 100, max: 999, default: 460)<br/>
+`-v or --version <int> :` Specify shaders' version. (min 100, max: 999, default: 460)<br/>
 
 <h2>Controls</h2><br />
 
@@ -63,7 +63,7 @@ You can now run ft_vox. :)
 `F5` to toggle focussing on transparent blocks.<br/>
 `F6` to change the framerate limit.<br/>
 `F7` to change the render distance limit.<br/>
-`F8` to swap the both worlds.<br/>
+`F8` to swap both worlds.<br/>
 `F9` to show debug info.<br/>
 `F10` to desactivate infinite world.<br/>
 `F11` to activate autowalk.<br/>
