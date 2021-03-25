@@ -138,7 +138,7 @@ install_irrklang:
 	cp -rf libs_srcs/irrKlang-64bit-1.6.0 ./libs/
 
 sudo_deps_linux:
-	@sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev
+	@sudo apt-get install build-essential libxmu-dev libxi-dev libgl-dev libfreetype6-dev
 
 clean_libs:
 	rm -rf ./libs ./libs_srcs ./includes/freetype2 ./includes/GL ./includes/glm
